@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "ChatGPT Jailbreak",
     "version": "1.0",
-    "description": "Loads a particular prompt whenever you open https://chat.openai.com/chat",
+    "description": "Loads a Jailbroken Version of ChatGPT whenever you open https://chat.openai.com/chat. ChatGPT-Jailbreak is a modified version of the ChatGPT language model that has been developed with the aim of bypassing or removing certain restrictions or limitations that are imposed on the original model. This project is intended for educational and research purposes only, and the authors of the project do not endorse or condone any illegal or unethical activities.",
     "icons": {
         "16": "images/ChatGPTjailBreak16.png",
         "32": "images/ChatGPTjailBreak32.png",
