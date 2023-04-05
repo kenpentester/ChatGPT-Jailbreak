@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT Jailbreak",
+    "version": "1.0",
+    "description": "Loads a particular prompt whenever you open https://chat.openai.com/chat",
+    "icons": {
+        "16": "images/ChatGPTjailBreak16.png",
+        "32": "images/ChatGPTjailBreak32.png",
+        "48": "images/ChatGPTjailBreak48.png",
+        "128": "images/ChatGPTjailBreak128.png"
+    },
+    "host_permissions": [
+        "*://*.chat.openai.com/chat/"
+    ],
+    "permissions": [
+        "storage"
+    ],
+    "content_scripts": [
+        {
+        "matches": ["https://chat.openai.com/chat*"],
+        "js": ["content.js"]
+        }
+    ]
+    }
+          
